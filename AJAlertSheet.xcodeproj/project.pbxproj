@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C5F27151F4C2B5300DDDC0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F27141F4C2B5300DDDC0B /* main.m */; };
+		9C5F271E1F4C2B5300DDDC0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F271C1F4C2B5300DDDC0B /* Main.storyboard */; };
+		9C5F27201F4C2B5300DDDC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F271F1F4C2B5300DDDC0B /* Assets.xcassets */; };
+		9C5F27231F4C2B5300DDDC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F27211F4C2B5300DDDC0B /* LaunchScreen.storyboard */; };
+		9C5F272E1F4C2B5300DDDC0B /* AJAlertSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F272D1F4C2B5300DDDC0B /* AJAlertSheetTests.m */; };
+		9C5F27391F4C2B5300DDDC0B /* AJAlertSheetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F27381F4C2B5300DDDC0B /* AJAlertSheetUITests.m */; };
+		9C5F274C1F4C2B6B00DDDC0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F27471F4C2B6B00DDDC0B /* AppDelegate.m */; };
+		9C5F274D1F4C2B6B00DDDC0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F27491F4C2B6B00DDDC0B /* ViewController.m */; };
+		9C5F274E1F4C2B6B00DDDC0B /* AJAlertSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F274B1F4C2B6B00DDDC0B /* AJAlertSheet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C5F272A1F4C2B5300DDDC0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C5F27081F4C2B5300DDDC0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5F270F1F4C2B5300DDDC0B;
+			remoteInfo = AJAlertSheet;
+		};
+		9C5F27351F4C2B5300DDDC0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C5F27081F4C2B5300DDDC0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C5F270F1F4C2B5300DDDC0B;
+			remoteInfo = AJAlertSheet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C5F27101F4C2B5300DDDC0B /* AJAlertSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJAlertSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5F27141F4C2B5300DDDC0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C5F271D1F4C2B5300DDDC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C5F271F1F4C2B5300DDDC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C5F27221F4C2B5300DDDC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C5F27241F4C2B5300DDDC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5F27291F4C2B5300DDDC0B /* AJAlertSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJAlertSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5F272D1F4C2B5300DDDC0B /* AJAlertSheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJAlertSheetTests.m; sourceTree = "<group>"; };
+		9C5F272F1F4C2B5300DDDC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5F27341F4C2B5300DDDC0B /* AJAlertSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AJAlertSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5F27381F4C2B5300DDDC0B /* AJAlertSheetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJAlertSheetUITests.m; sourceTree = "<group>"; };
+		9C5F273A1F4C2B5300DDDC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C5F27461F4C2B6B00DDDC0B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C5F27471F4C2B6B00DDDC0B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C5F27481F4C2B6B00DDDC0B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9C5F27491F4C2B6B00DDDC0B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9C5F274A1F4C2B6B00DDDC0B /* AJAlertSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJAlertSheet.h; sourceTree = "<group>"; };
+		9C5F274B1F4C2B6B00DDDC0B /* AJAlertSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJAlertSheet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C5F270D1F4C2B5300DDDC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5F27261F4C2B5300DDDC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5F27311F4C2B5300DDDC0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C5F27071F4C2B5300DDDC0B = {
+			isa = PBXGroup;
+			children = (
+				9C5F27121F4C2B5300DDDC0B /* AJAlertSheet */,
+				9C5F272C1F4C2B5300DDDC0B /* AJAlertSheetTests */,
+				9C5F27371F4C2B5300DDDC0B /* AJAlertSheetUITests */,
+				9C5F27111F4C2B5300DDDC0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C5F27111F4C2B5300DDDC0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F27101F4C2B5300DDDC0B /* AJAlertSheet.app */,
+				9C5F27291F4C2B5300DDDC0B /* AJAlertSheetTests.xctest */,
+				9C5F27341F4C2B5300DDDC0B /* AJAlertSheetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C5F27121F4C2B5300DDDC0B /* AJAlertSheet */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F27461F4C2B6B00DDDC0B /* AppDelegate.h */,
+				9C5F27471F4C2B6B00DDDC0B /* AppDelegate.m */,
+				9C5F27481F4C2B6B00DDDC0B /* ViewController.h */,
+				9C5F27491F4C2B6B00DDDC0B /* ViewController.m */,
+				9C5F274A1F4C2B6B00DDDC0B /* AJAlertSheet.h */,
+				9C5F274B1F4C2B6B00DDDC0B /* AJAlertSheet.m */,
+				9C5F271C1F4C2B5300DDDC0B /* Main.storyboard */,
+				9C5F271F1F4C2B5300DDDC0B /* Assets.xcassets */,
+				9C5F27211F4C2B5300DDDC0B /* LaunchScreen.storyboard */,
+				9C5F27241F4C2B5300DDDC0B /* Info.plist */,
+				9C5F27131F4C2B5300DDDC0B /* Supporting Files */,
+			);
+			path = AJAlertSheet;
+			sourceTree = "<group>";
+		};
+		9C5F27131F4C2B5300DDDC0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F27141F4C2B5300DDDC0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C5F272C1F4C2B5300DDDC0B /* AJAlertSheetTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F272D1F4C2B5300DDDC0B /* AJAlertSheetTests.m */,
+				9C5F272F1F4C2B5300DDDC0B /* Info.plist */,
+			);
+			path = AJAlertSheetTests;
+			sourceTree = "<group>";
+		};
+		9C5F27371F4C2B5300DDDC0B /* AJAlertSheetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C5F27381F4C2B5300DDDC0B /* AJAlertSheetUITests.m */,
+				9C5F273A1F4C2B5300DDDC0B /* Info.plist */,
+			);
+			path = AJAlertSheetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C5F270F1F4C2B5300DDDC0B /* AJAlertSheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5F273D1F4C2B5300DDDC0B /* Build configuration list for PBXNativeTarget "AJAlertSheet" */;
+			buildPhases = (
+				9C5F270C1F4C2B5300DDDC0B /* Sources */,
+				9C5F270D1F4C2B5300DDDC0B /* Frameworks */,
+				9C5F270E1F4C2B5300DDDC0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AJAlertSheet;
+			productName = AJAlertSheet;
+			productReference = 9C5F27101F4C2B5300DDDC0B /* AJAlertSheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C5F27281F4C2B5300DDDC0B /* AJAlertSheetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5F27401F4C2B5300DDDC0B /* Build configuration list for PBXNativeTarget "AJAlertSheetTests" */;
+			buildPhases = (
+				9C5F27251F4C2B5300DDDC0B /* Sources */,
+				9C5F27261F4C2B5300DDDC0B /* Frameworks */,
+				9C5F27271F4C2B5300DDDC0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5F272B1F4C2B5300DDDC0B /* PBXTargetDependency */,
+			);
+			name = AJAlertSheetTests;
+			productName = AJAlertSheetTests;
+			productReference = 9C5F27291F4C2B5300DDDC0B /* AJAlertSheetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C5F27331F4C2B5300DDDC0B /* AJAlertSheetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5F27431F4C2B5300DDDC0B /* Build configuration list for PBXNativeTarget "AJAlertSheetUITests" */;
+			buildPhases = (
+				9C5F27301F4C2B5300DDDC0B /* Sources */,
+				9C5F27311F4C2B5300DDDC0B /* Frameworks */,
+				9C5F27321F4C2B5300DDDC0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C5F27361F4C2B5300DDDC0B /* PBXTargetDependency */,
+			);
+			name = AJAlertSheetUITests;
+			productName = AJAlertSheetUITests;
+			productReference = 9C5F27341F4C2B5300DDDC0B /* AJAlertSheetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C5F27081F4C2B5300DDDC0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zhundao;
+				TargetAttributes = {
+					9C5F270F1F4C2B5300DDDC0B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YH49M9STFP;
+						ProvisioningStyle = Automatic;
+					};
+					9C5F27281F4C2B5300DDDC0B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YH49M9STFP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C5F270F1F4C2B5300DDDC0B;
+					};
+					9C5F27331F4C2B5300DDDC0B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YH49M9STFP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C5F270F1F4C2B5300DDDC0B;
+					};
+				};
+			};
+			buildConfigurationList = 9C5F270B1F4C2B5300DDDC0B /* Build configuration list for PBXProject "AJAlertSheet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C5F27071F4C2B5300DDDC0B;
+			productRefGroup = 9C5F27111F4C2B5300DDDC0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C5F270F1F4C2B5300DDDC0B /* AJAlertSheet */,
+				9C5F27281F4C2B5300DDDC0B /* AJAlertSheetTests */,
+				9C5F27331F4C2B5300DDDC0B /* AJAlertSheetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C5F270E1F4C2B5300DDDC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5F27231F4C2B5300DDDC0B /* LaunchScreen.storyboard in Resources */,
+				9C5F27201F4C2B5300DDDC0B /* Assets.xcassets in Resources */,
+				9C5F271E1F4C2B5300DDDC0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5F27271F4C2B5300DDDC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5F27321F4C2B5300DDDC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C5F270C1F4C2B5300DDDC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5F274D1F4C2B6B00DDDC0B /* ViewController.m in Sources */,
+				9C5F274E1F4C2B6B00DDDC0B /* AJAlertSheet.m in Sources */,
+				9C5F274C1F4C2B6B00DDDC0B /* AppDelegate.m in Sources */,
+				9C5F27151F4C2B5300DDDC0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5F27251F4C2B5300DDDC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5F272E1F4C2B5300DDDC0B /* AJAlertSheetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5F27301F4C2B5300DDDC0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5F27391F4C2B5300DDDC0B /* AJAlertSheetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C5F272B1F4C2B5300DDDC0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5F270F1F4C2B5300DDDC0B /* AJAlertSheet */;
+			targetProxy = 9C5F272A1F4C2B5300DDDC0B /* PBXContainerItemProxy */;
+		};
+		9C5F27361F4C2B5300DDDC0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C5F270F1F4C2B5300DDDC0B /* AJAlertSheet */;
+			targetProxy = 9C5F27351F4C2B5300DDDC0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C5F271C1F4C2B5300DDDC0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5F271D1F4C2B5300DDDC0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C5F27211F4C2B5300DDDC0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C5F27221F4C2B5300DDDC0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C5F273B1F4C2B5300DDDC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C5F273C1F4C2B5300DDDC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C5F273E1F4C2B5300DDDC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YH49M9STFP;
+				INFOPLIST_FILE = AJAlertSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..AJAlertSheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C5F273F1F4C2B5300DDDC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YH49M9STFP;
+				INFOPLIST_FILE = AJAlertSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..AJAlertSheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C5F27411F4C2B5300DDDC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YH49M9STFP;
+				INFOPLIST_FILE = AJAlertSheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..AJAlertSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AJAlertSheet.app/AJAlertSheet";
+			};
+			name = Debug;
+		};
+		9C5F27421F4C2B5300DDDC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YH49M9STFP;
+				INFOPLIST_FILE = AJAlertSheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..AJAlertSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AJAlertSheet.app/AJAlertSheet";
+			};
+			name = Release;
+		};
+		9C5F27441F4C2B5300DDDC0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YH49M9STFP;
+				INFOPLIST_FILE = AJAlertSheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..AJAlertSheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AJAlertSheet;
+			};
+			name = Debug;
+		};
+		9C5F27451F4C2B5300DDDC0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YH49M9STFP;
+				INFOPLIST_FILE = AJAlertSheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com..AJAlertSheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AJAlertSheet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C5F270B1F4C2B5300DDDC0B /* Build configuration list for PBXProject "AJAlertSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5F273B1F4C2B5300DDDC0B /* Debug */,
+				9C5F273C1F4C2B5300DDDC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5F273D1F4C2B5300DDDC0B /* Build configuration list for PBXNativeTarget "AJAlertSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5F273E1F4C2B5300DDDC0B /* Debug */,
+				9C5F273F1F4C2B5300DDDC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C5F27401F4C2B5300DDDC0B /* Build configuration list for PBXNativeTarget "AJAlertSheetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5F27411F4C2B5300DDDC0B /* Debug */,
+				9C5F27421F4C2B5300DDDC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C5F27431F4C2B5300DDDC0B /* Build configuration list for PBXNativeTarget "AJAlertSheetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5F27441F4C2B5300DDDC0B /* Debug */,
+				9C5F27451F4C2B5300DDDC0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C5F27081F4C2B5300DDDC0B /* Project object */;
+}
